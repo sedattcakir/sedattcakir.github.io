@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KELİMECE</title>
+<meta name="description" content="KELİMECE: Türkçe kelime tahmin oyunu. Android ve iOS.">
+<style>
+  :root {
+    --bg: #f8fafc;
+    --surface: #ffffff;
+    --text: #0f172a;
+    --muted: #64748b;
+    --line: #e2e8f0;
+    --brand: #c93838;
+    color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f172a;
+      --surface: #1e293b;
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+      --line: #334155;
+      --brand: #ff8080;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; display: grid; place-items: center;
+    background: var(--bg); color: var(--text);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    padding: 16px;
+  }
+  main {
+    width: 100%; max-width: 480px; text-align: center;
+    background: var(--surface); border: 1px solid var(--line); border-radius: 20px;
+    padding: 40px 24px;
+  }
+  h1 { margin: 0; font-size: 40px; font-weight: 800; letter-spacing: 2px; color: var(--brand); }
+  .tagline { margin: 4px 0 28px; color: var(--muted); }
+  ul { list-style: none; padding: 0; margin: 0; }
+  li { border-top: 1px solid var(--line); }
+  li:last-child { border-bottom: 1px solid var(--line); }
+  a { display: block; padding: 14px 0; color: var(--text); text-decoration: none; font-weight: 600; }
+  a:hover { color: var(--brand); }
+  footer { margin-top: 24px; font-size: 13px; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>KELİMECE</h1>
+  <p class="tagline">Türkçe kelime tahmin oyunu · Android ve iOS</p>
+  <ul>
+    <li><a href="gizlilik/">Gizlilik Politikası</a></li>
+    <li><a href="gizlilik/#en">Privacy Policy</a></li>
+    <li><a href="mailto:sedatenessc@gmail.com">İletişim / Contact</a></li>
+  </ul>
+  <footer>© 2026 Sedat Enes Çakır</footer>
+</main>
+</body>
+</html>
